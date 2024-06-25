@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+.wrapper {
+  background: #1c1c1c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.rpsbutton{
+   height:100px;
+   width:100px
+}
+#endgame{
+  height: 100px;
+  width:100px;
+  align-self: center;
+}
+#result{
+  text-align: center;
+}
